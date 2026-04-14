@@ -1,0 +1,8 @@
+paths:
+  data_path: data/train.csv
+  model_path: models/model.pkl
+
+ml:
+  target_column: trip_duration
+  test_size: 0.2
+  random_state: 42
